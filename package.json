@@ -1,0 +1,27 @@
+{
+  "name": "vital-science-grid",
+  "version": "1.0.0",
+  "description": "GNAIAAAC LLC - Planetary Energy and Metabolic Health Mesh",
+  "main": "main.js",
+  "author": "Arifur Shanta (GNAIAAAC LLC)",
+  "license": "Proprietary",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/GNAIAAAC-LLC/Vital-Science-Grid.git"
+  },
+  "scripts": {
+    "start": "node main.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy:azure": "az webapp up --name vital-science-grid-v1"
+  },
+  "dependencies": {
+    "@azure/cosmos": "^4.0.0",
+    "azure-iothub": "^1.16.3",
+    "axios": "^1.7.0",
+    "dotenv": "^16.4.0",
+    "express": "^4.19.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
