@@ -1,0 +1,15 @@
+{
+  "redirects": [
+    {
+      "source": "/(.*)",
+      "has": [
+        {
+          "type": "host",
+          "value": "(?!ssgpt6.com).*"
+        }
+      ],
+      "destination": "https://ssgpt6.com/$1",
+      "permanent": true
+    }
+  ]
+}
