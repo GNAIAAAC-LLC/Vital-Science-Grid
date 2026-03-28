@@ -1,0 +1,11 @@
+# This cleans ssgpt6.com
+curl -X POST "https://api.cloudflare.com/client/v4/zones/76644f509e5b9277f988889895c27072/purge_cache" \
+     -H "Authorization: Bearer [YOUR_TOKEN]" \
+     -H "Content-Type: application/json" \
+     --data '{"purge_everything":true}'
+
+# This cleans earnai.com
+curl -X POST "https://api.cloudflare.com/client/v4/zones/9153a700141662921d23b7e738122394/purge_cache" \
+     -H "Authorization: Bearer [YOUR_TOKEN]" \
+     -H "Content-Type: application/json" \
+     --data '{"purge_everything":true}'
