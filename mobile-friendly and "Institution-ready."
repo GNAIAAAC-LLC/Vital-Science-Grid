@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SSGPT6 | Sovereign Play Environment</title>
+    <style>
+        :root { --bg: #0a0a0c; --text: #e0e0e0; --accent: #3b82f6; --card: #16161a; }
+        body { background: var(--bg); color: var(--text); font-family: 'Inter', sans-serif; margin: 0; padding: 20px; line-height: 1.6; }
+        .container { max-width: 900px; margin: 0 auto; }
+        header { text-align: center; padding: 60px 0; border-bottom: 1px solid #333; }
+        .badge { background: var(--accent); color: white; padding: 5px 12px; border-radius: 20px; font-size: 0.8rem; text-transform: uppercase; font-weight: bold; }
+        h1 { font-size: 2.5rem; margin: 20px 0; letter-spacing: -1px; }
+        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; margin-top: 40px; }
+        .card { background: var(--card); padding: 25px; border-radius: 12px; border: 1px solid #222; }
+        .card h3 { color: var(--accent); margin-top: 0; }
+        .pricing { background: #1e1e24; padding: 40px; border-radius: 12px; margin-top: 40px; text-align: center; }
+        footer { margin-top: 60px; text-align: center; color: #666; font-size: 0.9rem; }
+        .lock-icon { font-size: 1.2rem; margin-right: 8px; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <span class="badge">Soft-Launch Phase</span>
+            <h1>Tiny AI. Big Brain. Black Box.</h1>
+            <p style="font-size: 1.2rem; color: #aaa;">Sovereign AI Play Environment for Families & Institutions.</p>
+            <div style="margin-top: 30px;">
+                <span style="color: #4ade80;">● Private Sovereign Play Environment Active</span>
+            </div>
+        </header>
+
+        <section style="padding: 40px 0;">
+            <h2>Sovereign Play Core</h2>
+            <p>SSGPT6 is a sovereign AI control surface designed for families, schools, and institutions that need safe, logged, and governed interaction—without compromising data or privacy.</p>
+            
+            <div class="grid">
+                <div class="card">
+                    <h3>🛡️ Family-Safe Play</h3>
+                    <p>No public exposure. No open DMs. Designed to be boring to predators and safe for the world.</p>
+                </div>
+                <div class="card">
+                    <h3>🔐 Memory Vault</h3>
+                    <p>Adult-controlled logs and transcripts. Backend-ready infrastructure for private governance.</p>
+                </div>
+                <div class="card">
+                    <h3>🏛️ Institution Grade</h3>
+                    <p>NASA / UN-ready posture. Audit-ready framing for agencies and regulators.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="pricing">
+            <h2>Pricing Preview</h2>
+            <p>Introductory advertising pricing for limited time.</p>
+            <div style="display: flex; justify-content: space-around; flex-wrap: wrap; gap: 20px;">
+                <div><strong>Family:</strong> $0-$9/mo</div>
+                <div><strong>School:</strong> Custom</div>
+                <div><strong>Institution:</strong> Custom</div>
+            </div>
+            <p style="font-size: 0.8rem; color: #666; margin-top: 20px;">
+                Disclaimer: GNAIAAAC LLC reserves the right to increase fees based on infrastructure scaling.
+            </p>
+        </section>
+
+        <footer>
+            <p>© 2026 SSGPT6 · GNAIAAAC LLC</p>
+            <p><span class="lock-icon">🔒</span> Financial Integrity & Tax Compliance Testing in Progress</p>
+        </footer>
+    </div>
+</body>
+</html>
